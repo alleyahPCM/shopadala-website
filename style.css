@@ -70,3 +70,261 @@ form.search-form input[type=text] {
     width: 30vw;
     min-width: 450px;
 }
+
+
+
+
+
+/* CSS NI JUSTIN */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:1900px;
+}
+
+
+body { /* */
+    zoom: 75%;
+  background: #F2F2F2;
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+/* FEATURED PRODUCTS: MAIN DIV */
+.featuredproducts {
+    background-color: rgb(231, 230, 230);
+    height: 650px;
+    width: 1500px;
+    padding: 50px;
+    margin: auto;
+
+    position: relative;
+    top: 30px;
+
+}
+
+/* TODAY'S DEALS */
+.featuredproducts .todaysdeals{
+    background-color: #F2F2F2;
+    margin: auto;
+
+    width: 1600px;
+    position: relative;
+    right: 50px;
+    bottom: 50px;
+
+    font-size: 35px;
+    color: #eba92a;
+
+    
+
+}
+
+
+/* First section of featured products */
+.featuredproducts .firstsection{
+
+    width: 1500px;
+    position: relative;
+    bottom: 20px;
+
+
+}
+
+
+/* Right Arrow Icon */
+.featuredproducts .rightarrow{
+
+    position: relative;
+    left: 1470px;
+    top: -260px;
+
+
+}
+
+
+
+
+.featuredproducts .phonesales{
+    background-color: #eba92a;
+    margin: auto;
+
+    width: 1500px;
+    height: 285px;
+    position: relative;
+    top: -125px;
+
+   
+
+
+}
+
+
+/*SHOPADALA SALE TEXT*/
+.featuredproducts .shopadalasale{
+    
+    background-color: #F2F2F2;
+    margin: auto;
+
+    width: 620px;
+    position: relative;
+    bottom: 450px;
+
+    font-size: 35px;
+    color: #eba92a;
+
+
+    
+
+}
+
+
+/*PRODUCT BROWSER SECTION:*/
+.productbrowser{
+    background-color: rgb(231, 230, 230);
+    height: 650px;
+    width: 1500px;
+    padding: 50px;
+    margin: auto;
+
+    position: relative;
+    top: 100px;
+}
+
+
+.categories {
+    background-color: rgb(255, 255, 255);
+    height: 550px;
+    width: 200px;
+    padding: 50px;
+    margin: auto;
+
+    position: relative;
+    top: 10px;
+    right: 620px
+
+}
+
+.categories .Category {
+    font-size: 35px;
+    position: relative;
+    bottom: 45px;
+}
+
+
+.categories .categorieschoices {
+    font-size: 25px;
+    position: relative;
+    bottom: 55px;
+
+    text-align: center;
+    display: inline-block; text-align: left;
+    text-decoration-color: #eba92a;
+}
+
+
+
+.categoryview {
+    background-color: rgb(255, 255, 255);
+    height: 550px;
+    width: 1100px;
+    padding: 50px;
+    margin: auto;
+
+    position: relative;
+    bottom: 590px;
+    left: 160px;
+}
+
+.categoryview h1 {
+    position: relative;
+    bottom: 75px;
+    right: 20px;
+}
+
+
+/* First column of category products */
+.categoryview1{
+
+    width: 1200px;
+    position: relative;
+    bottom: 1195px;
+    left: 575px;
+
+
+}
+
+.categoryview2{
+
+    width: 1200px;
+    position: relative;
+    bottom: 1190px;
+    left: 575px;
+}
+
+
+.categoryrightarrow { 
+
+    position: relative;
+    left: 1650px;
+    top: -1580px;
+
+
+}
+/*END OF PRODUCT BROWSER SECTION:*/
+
+
+
+/* ABOUT SECTION: */
+
+.about {
+    background-color: rgb(255, 255, 255);
+    height: 220px;
+    width: 1500px;
+    padding: 50px;
+    margin: auto;
+
+    position: relative;
+    bottom: 1300px;
+}
+
+.about h1{
+    position: relative;
+    bottom: 55px;
+    right: 20px;
+}
+
+
+.about h2{
+    position: relative;
+    bottom: 115px;
+    left: 450px;
+}
+
+.about p{
+    position: relative;
+    bottom: 115px;
+    left: 450px;
+}
+
+.about img{
+    position: relative;
+    bottom: 155px;
+    right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
