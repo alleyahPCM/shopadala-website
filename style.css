@@ -10,6 +10,7 @@
     align-items: center;
     padding: 20px;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 nav{
@@ -40,4 +41,32 @@ p{
     padding-left: 25px;
     padding-right: 25px;
     background-color:#EBA92A;
+}
+
+form.search-form input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    float: left;
+    width: 90%;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+  }
+  
+ /* Style the submit button */
+  form.search-form button {
+    float: left;
+    width: 10%;
+    height: 40px;
+    padding: 10px;
+    font-size: 17px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+
+.search-bar{
+    width: 30vw;
+    min-width: 450px;
 }
