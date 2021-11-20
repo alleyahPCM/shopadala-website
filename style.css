@@ -1,5 +1,5 @@
 .navbar{
-    max-width: 1300px;
+    max-width: 1500px;
     display: flex;
     align-items: center;
     padding: 20px;
@@ -37,35 +37,31 @@ p{
     background-color:#EBA92A;
 }
 
-form.search-form input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    float: left;
-    width: 90%;
-    height: 40px;
-    background: #FFFFFF;
-    border: 1px solid #FFFFFF;
-  }
-  
- /* Style the submit button */
-  form.search-form button {
-    float: left;
-    width: 10%;
-    height: 40px;
-    padding: 10px;
-    font-size: 17px;
-    background: #FFFFFF;
-    border: 1px solid #FFFFFF;
-    border-left: none; /* Prevent double borders */
-    cursor: pointer;
-  }
-
-.search-bar{
+.search-bar form {
+    background-color: #FFFFFF;
     width: 30vw;
-    min-width: 450px;
-}
+    min-width: 300px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 
+.search-bar input {
+    all: unset;
+    font: 16px system-ui;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
 
+.search-bar button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
 /* CSS NI JUSTIN */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
