@@ -1,12 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing; border-box;
+    box-sizing: border-box;
 }
 .navbar{
+    max-width: 1300px;
     display: flex;
     align-items: center;
     padding: 20px;
+    margin: 0 auto;
 }
 nav{
     flex: 1;
