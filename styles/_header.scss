@@ -1,0 +1,55 @@
+.navbar-container {
+    position: sticky; 
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    background-color: $secondaryColor;
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        width: 1150px;
+        padding: 15px 0;
+        .logo {
+            width: 150px;
+        }
+    
+        .search-bar-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+                
+            svg {
+                position: absolute;
+                height: 20px;
+                margin-left: 510px;
+                padding: 10px 10px;
+            }
+    
+            input {
+                width: 550px;
+                height: 30px;
+                font-size: 20px;
+                padding-left: 5px;
+                align-self: center;
+                border-radius: 6px;
+                border: 1px solid $primaryColor;
+            }
+        }
+    
+        .navbar-icons-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            svg {
+                height: 30px;
+                margin-left: 15px;
+            }
+        }
+
+    }
+
+   
+}

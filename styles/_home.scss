@@ -1,0 +1,397 @@
+.home-page {
+    .home-text-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    
+        div {
+            width: 1180px;
+    
+            h1 {
+                font-size: 24px;
+            }
+    
+            hr {
+                position: absolute;
+                border: 2px solid $secondaryColor;
+                width: 60px;
+            }
+        }
+    }
+    
+    .todays-deals-text-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    
+        div {
+            width: 1150px;
+    
+            u, h2 {
+                font-size: 30px;
+                color: $secondaryColor;
+            }
+        }
+    }
+    
+    .flex-box-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    
+        .flex-box {
+            width: 1190px;
+            height: 30px;
+            background-color: $accentColor;
+        }
+    }
+    
+    .general-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    
+    
+        
+        .general-box {
+            background-color: $accentColor;
+            padding: 20px;
+            width: 1150px;
+            display: flex;
+            flex-direction: column;
+            
+            .todays-deals-container {
+                display: flex;
+    
+                .product-container {
+                    background-color: $secondaryColor;
+                    padding: 8px;
+                    margin-right: 7px;
+        
+                    .product {
+                        background-color: $primaryColor;
+                        padding-bottom: 8px;
+                         
+                        img {
+                            width: 142px;
+                        }
+        
+                        .product-description {
+                            padding: 0 8px;
+                            
+                            .product-name {
+                                text-align: center;
+                                padding-bottom: 2px;
+        
+                                span {
+                                    font-size: 12px;
+                                }
+                            }
+        
+        
+                            .price-and-sold-container {
+                                display: flex;
+                                justify-content: space-between;
+        
+                                .price {
+                                    span {
+                                        font-size: 17px;
+                                        color: $secondaryColor;
+                                    }
+                                }
+        
+                                .number-sold {
+                                    span {
+                                        vertical-align: middle;
+                                        font-size: 12px;
+                                        color: #A6A6A6;
+                                    }
+                                }
+                            }
+                            
+                    
+                            .rating-container{
+                                display: flex;
+                                
+                                span {
+                                    font-size: 9px;
+                                }
+                                
+                                .number-of-ratings {
+                                    margin-left: 3px;
+        
+                                    span {
+                                        color: $secondaryColor;
+                                    }
+                                }
+        
+                                .checked {
+                                    color: orange;
+                                }
+                            }
+        
+                        }
+        
+                    }
+                }
+            }
+    
+            .shopadala-sale-section {
+                display: flex;
+                flex-direction: column;
+                margin-top: 10px;
+    
+                .shopadala-sale-banner {
+                    position: absolute;
+                    align-self: center;
+                    
+                    img {
+                        width: 600px;
+                    }
+                }
+    
+    
+    
+                .shopadala-sale-container {
+                    background-color: $secondaryColor;
+                    display: flex;
+                    width: 1150px;
+                    margin-top: 28px;
+    
+                    .phone-sale-container {
+                        display: flex;
+                        flex-direction: column;
+                        padding: 20px;
+                        margin-right: 2px;
+                        margin-top: 20px;
+                        
+                        
+                        .limited-time-offer-sticker {
+                            position: absolute;
+                            width: 65px;
+                            margin-left: 112px;
+                        }
+    
+                        .sale-product {
+                            background-color: $primaryColor;
+                            width: 145px;
+                            text-align: center;
+                            margin-top: 25px;
+    
+    
+                            img {
+                                width: 145px;
+                            }
+    
+                            span {
+                                font-size: 30px;
+                                color: $secondaryColor;
+                            }
+                        }
+                    }
+                }
+            }    
+    
+            .category-and-all-products-container {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 30px;
+    
+                .category-container {
+                    display: flex;
+                    flex-direction: column;
+                    background-color: $primaryColor;
+                    padding: 10px;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    width: 210px;
+    
+                    .category-icon-and-title {
+                        display: flex;
+                        margin-bottom: 10px;
+    
+                        svg {
+                            width: 28px;
+                            margin-right: 5px;
+                        }
+    
+                        h1 {
+                            font-size: 24px;
+                        }
+                    }
+    
+                    .categories {
+                        text-align: center;
+                        span {
+                            font-size: 20px;
+                        }
+                    }
+    
+                }
+    
+                .all-products-and-page-number-container {
+                    display: flex;
+                    flex-direction: column;
+                    .all-products-container {
+                        display: flex;
+                        flex-direction: column;
+                        width: 870px;
+                        padding: 10px;
+                        background-color: $primaryColor;
+        
+                        .all-products-text {
+                            margin-bottom: 10px;
+        
+                            h1 {
+                                font-size: 30px;
+                                margin-left: 10px;
+                                color: $secondaryColor;
+                            }
+        
+                            hr {
+                                border: 2px solid $secondaryColor;
+                                width: 180px;
+                            }
+                        }
+        
+                        .products-section {
+                            display: flex;
+                            margin-bottom: 10px;
+                            
+                            .product-container {
+                                background-color: $secondaryColor;
+                                padding: 6px;
+                                margin-right: 7px;
+                    
+                                .product {
+                                    background-color: $primaryColor;
+                                    padding-bottom: 8px;
+                                     
+                                    img {
+                                        width: 127px;
+                                    }
+                    
+                                    .product-description {
+                                        padding: 0 8px;
+                                        
+                                        .product-name {
+                                            text-align: center;
+                                            padding-bottom: 2px;
+                    
+                                            span {
+                                                font-size: 10px;
+                                            }
+                                        }
+                    
+                    
+                                        .price-and-sold-container {
+                                            display: flex;
+                                            justify-content: space-between;
+                    
+                                            .price {
+                                                span {
+                                                    font-size: 15px;
+                                                    color: $secondaryColor;
+                                                }
+                                            }
+                    
+                                            .number-sold {
+                                                span {
+                                                    vertical-align: middle;
+                                                    font-size: 10px;
+                                                    color: #A6A6A6;
+                                                }
+                                            }
+                                        }
+                                        
+                                
+                                        .rating-container{
+                                            display: flex;
+                                            
+                                            span {
+                                                font-size: 8px;
+                                            }
+                                            
+                                            .number-of-ratings {
+                                                margin-left: 3px;
+                    
+                                                span {
+                                                    color: $secondaryColor;
+                                                }
+                                            }
+                    
+                                            .checked {
+                                                color: orange;
+                                            }
+                                        }
+                    
+                                    }
+                    
+                                }
+                            }
+                        }
+        
+                    }
+    
+                    .page-number-container {
+                        padding: 20px;
+                        
+                        align-self: center;
+            
+                            span {
+                                font-size: 30px;
+                                margin-right: 5px;
+                                color: #737373;
+                            }
+                        
+                    }
+    
+                }
+               
+    
+            }
+    
+            .line {
+                margin-top: 40px;
+                hr {
+                    border: 2px solid $secondaryColor;
+                }
+            }
+    
+            .payment-methods-and-about-container {
+                display: flex;
+                background-color: $primaryColor;
+                margin-top: 30px;
+    
+                .payment-methods {
+                    padding: 10px;
+    
+                    h1 {
+                        font-size: 30px;
+                    }
+                }
+    
+                .about-container {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    margin-left: 50px;
+                    padding: 10px;
+                    width: 700px;
+    
+                    h2 {
+                        font-size: 30px;
+                        padding-bottom: 10px;
+                    }
+    
+                    .copyright {
+                        align-self: center;
+                    }
+                }
+            }
+           
+    
+        }
+    
+    }
+}
