@@ -1,112 +1,114 @@
-body{
-    font-family: Verdana, Georgia, Tahoma, sans-serif;
-}
-a{
-    Margin-top:0;
-    margin-right:auto;
-    margin-bottom: 0;
-    margin-left: 100px;
-}
-h1{
-    text-align:center;
-    font-family: Tahoma;
-    font-size: 35px;
-    color:rgb(197, 112, 42)
-}
-h2{
-    text-align:center;
-    font-family: Tahoma;
-    font-size: 20px;
-     height:1px;
-    color:rgb(197, 112, 42)
-}
-
-.About-btn{
-    float:right;
-    border:none;
-    margin-top: 16px;
-    margin-right:45px;
-    background:None;
-    font-size: 25px;
-    font-family: Tahoma;
-    color:white;
-}
-.home-btn{
-   float:right;
-   border:none;
-   margin-right:45px;
-   margin-top: 16px;
-   background:None;
-   font-size: 25px;
-   font-family: Tahoma;
-   color:white;
-}
-.Cont-btn{
-    float:right;
-    border:none;
-    margin-right:200px;
-    margin-top:16px;
-    background:None;
-    font-size: 25px;
-    font-family: Tahoma;
-    color:white;
-}
-.Cont-btn:hover, .home-btn:hover, .About-btn:hover{
-    color: #D0A984;
-}
-
-.containter1{
-    background-color:#ffffff;
-    border-radius:0;
-    padding:20px 0 30px 0;
-    width: 550px;
-    margin-top: 150px;
-    margin-right: 150px;
-    margin-bottom: 0;
-    margin-left: 100px;;
-}
-.fb-btn{
-    float:left;
-    background:none;
-    border:none;
-    margin-left: 80px;
-}
-.fa-facebook{color:royalblue}
-
-.twt-btn{
-    float:center;
-    background:none;
-    border:none;
-    margin-left:50px;
-    margin-top:5px;
-}
-.fa-twitter-square{color:rgb(24, 167, 224)}
-
-.Gmail-btn{
-    float:right;
-    background:none;
-    border:none;
-    margin-right:80px;
-    margin-top:10px;
-}
-.fa-google{color:rgb(177, 20, 20)}
-
-.fa-facebook:hover, .fa-twitter-square:hover, .fa-google:hover{color:#D0A984}
-
-h3{
-    text-align: center;
-    color:rgb(197, 112, 42);
-    font-size:18px ;
-    font-family:Tahoma;
-}
-input[type=text], input[type=password]{
-    text-align: center;
-    width:93%;
-    margin:20px;
-    border:10px solid #8d8d8d;
-    display:inline-block;
-    font-family:Tahoma;
-    font-size:15px;
-    border: none;
-    box-sizing: border-box;
+.login-page{
+    body{
+        font-family: Verdana, Georgia, Tahoma, sans-serif;
+    }
+    a{
+        Margin-top:0;
+        margin-right:auto;
+        margin-bottom: 0;
+        margin-left: 100px;
+    }
+    h1{
+        text-align:center;
+        font-family: Tahoma;
+        font-size: 35px;
+        color:rgb(197, 112, 42)
+    }
+    h2{
+        text-align:center;
+        font-family: Tahoma;
+        font-size: 20px;
+         height:1px;
+        color:rgb(197, 112, 42)
+    }
+    
+    .About-btn{
+        float:right;
+        border:none;
+        margin-top: 16px;
+        margin-right:45px;
+        background:None;
+        font-size: 25px;
+        font-family: Tahoma;
+        color:white;
+    }
+    .home-btn{
+       float:right;
+       border:none;
+       margin-right:45px;
+       margin-top: 16px;
+       background:None;
+       font-size: 25px;
+       font-family: Tahoma;
+       color:white;
+    }
+    .Cont-btn{
+        float:right;
+        border:none;
+        margin-right:200px;
+        margin-top:16px;
+        background:None;
+        font-size: 25px;
+        font-family: Tahoma;
+        color:white;
+    }
+    .Cont-btn:hover, .home-btn:hover, .About-btn:hover{
+        color: #D0A984;
+    }
+    
+    .containter1{
+        background-color:#ffffff;
+        border-radius:0;
+        padding:20px 0 30px 0;
+        width: 550px;
+        margin-top: 150px;
+        margin-right: 150px;
+        margin-bottom: 0;
+        margin-left: 100px;;
+    }
+    .fb-btn{
+        float:left;
+        background:none;
+        border:none;
+        margin-left: 80px;
+    }
+    .fa-facebook{color:royalblue}
+    
+    .twt-btn{
+        float:center;
+        background:none;
+        border:none;
+        margin-left:50px;
+        margin-top:5px;
+    }
+    .fa-twitter-square{color:rgb(24, 167, 224)}
+    
+    .Gmail-btn{
+        float:right;
+        background:none;
+        border:none;
+        margin-right:80px;
+        margin-top:10px;
+    }
+    .fa-google{color:rgb(177, 20, 20)}
+    
+    .fa-facebook:hover, .fa-twitter-square:hover, .fa-google:hover{color:#D0A984}
+    
+    h3{
+        text-align: center;
+        color:rgb(197, 112, 42);
+        font-size:18px ;
+        font-family:Tahoma;
+    }
+    input[type=text], input[type=password]{
+        text-align: center;
+        width:93%;
+        margin:20px;
+        border:10px solid #8d8d8d;
+        display:inline-block;
+        font-family:Tahoma;
+        font-size:15px;
+        border: none;
+        box-sizing: border-box;
+    }
 }

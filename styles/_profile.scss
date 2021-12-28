@@ -1,0 +1,58 @@
+.profilesettings {
+    background-color: #f1f1f1;
+    width: 1550px;
+    height: 1000px;   
+    padding: 25px;
+    margin: 25px auto 100px auto;
+}
+
+.profilesettings .yellowbar{
+background-color: #eba92a;
+width: 1000px;
+height: 70px;   
+padding: 50px;
+margin: auto;
+}
+
+.profilesettings .profileinfo {
+margin: -20px 50px auto auto;
+}
+
+.profilesettings .options1{
+width: 1000px;
+height: 70px;   
+padding: 30px;
+margin: 40px auto;
+}
+
+.profilesettings h2 {
+color: #898686;
+text-decoration: none;
+font-size: 30px;
+}
+
+.profilesettings li {
+padding: auto 50px auto 150px;
+text-decoration: none;
+color: black;
+list-style: none;
+position: relative;
+top: 10px;
+left: 15px;
+font-size: 25px;
+}
+
+.profilesettings a {
+text-decoration: none;
+padding: auto 50px auto 150px;
+
+    .delete-account-text {
+        color: red;
+    }
+}
+
+.profilesettings hr {
+position: relative;
+top: 20px;
+}
+
