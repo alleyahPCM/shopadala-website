@@ -195,8 +195,16 @@
   padding-bottom: 2px;
 }
 
-.home-page .general-container .general-box .todays-deals-container .product-container .product .product-description .product-name span {
+.home-page .general-container .general-box .todays-deals-container .product-container .product .product-description .product-name a {
+  text-decoration: none;
+}
+
+.home-page .general-container .general-box .todays-deals-container .product-container .product .product-description .product-name a span {
   font-size: 12px;
+}
+
+.home-page .general-container .general-box .todays-deals-container .product-container .product .product-description .product-name a:visited {
+  color: inherit;
 }
 
 .home-page .general-container .general-box .todays-deals-container .product-container .product .product-description .price-and-sold-container {
@@ -425,8 +433,16 @@
   padding-bottom: 2px;
 }
 
-.home-page .general-container .general-box .category-and-all-products-container .all-products-and-page-number-container .all-products-container .products-section .product-container .product .product-description .product-name span {
+.home-page .general-container .general-box .category-and-all-products-container .all-products-and-page-number-container .all-products-container .products-section .product-container .product .product-description .product-name a {
+  text-decoration: none;
+}
+
+.home-page .general-container .general-box .category-and-all-products-container .all-products-and-page-number-container .all-products-container .products-section .product-container .product .product-description .product-name a span {
   font-size: 10px;
+}
+
+.home-page .general-container .general-box .category-and-all-products-container .all-products-and-page-number-container .all-products-container .products-section .product-container .product .product-description .product-name a:visited {
+  color: inherit;
 }
 
 .home-page .general-container .general-box .category-and-all-products-container .all-products-and-page-number-container .all-products-container .products-section .product-container .product .product-description .price-and-sold-container {
@@ -985,61 +1001,157 @@
       align-self: center;
 }
 
-.profilesettings {
-  background-color: #f1f1f1;
-  width: 1550px;
-  height: 1000px;
-  padding: 25px;
-  margin: 25px auto 100px auto;
+.profile-page .general-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
-.profilesettings .yellowbar {
-  background-color: #eba92a;
+.profile-page .general-container .general-box {
+  background-color: #F1F1F1;
+  padding: 20px;
+  width: 1150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-page .general-container .general-box .profile-picture-and-information {
+  background-color: #EBA92A;
   width: 1000px;
-  height: 70px;
-  padding: 50px;
-  margin: auto;
+  height: 170px;
 }
 
-.profilesettings .profileinfo {
-  margin: -20px 50px auto auto;
+.profile-page .general-container .general-box .profile-picture-and-information .profile-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 20px 50px;
 }
 
-.profilesettings .options1 {
+.profile-page .general-container .general-box .profile-picture-and-information .profile-container .profile-picture-section {
+  margin: 14px 10px;
+}
+
+.profile-page .general-container .general-box .profile-picture-and-information .profile-container .profile-picture-section .profile-picture {
+  width: 100px;
+}
+
+.profile-page .general-container .general-box .profile-picture-and-information .profile-container .online-status {
+  width: 40px;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 75px;
+}
+
+.profile-page .general-container .general-box .profile-picture-and-information .profile-container .username-and-rating-section {
+  margin: 24px 40px;
+}
+
+.profile-page .general-container .general-box .profile-picture-and-information .profile-container .username-and-rating-section span {
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.profile-page .general-container .general-box .profile-picture-and-information .profile-container .username-and-rating-section .star-rating span {
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+.profile-page .general-container .general-box .profile-picture-and-information .profile-container .username-and-rating-section .friends-logo-and-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5px;
+}
+
+.profile-page .general-container .general-box .profile-picture-and-information .profile-container .username-and-rating-section .friends-logo-and-text span {
+  margin-left: 5px;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.profile-page .general-container .general-box .profile-picture-and-information .profile-container .profile-information-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 26px 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-page .general-container .general-box .profile-picture-and-information .profile-container .profile-information-section span {
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.profile-page .general-container .general-box .profile-picture-and-information .profile-container .vl {
+  border-left: 3px solid #FFFFFF;
+  height: 130px;
+  margin: 0 10px;
+}
+
+.profile-page .general-container .general-box .profile-settings {
   width: 1000px;
-  height: 70px;
-  padding: 30px;
-  margin: 40px auto;
 }
 
-.profilesettings h2 {
+.profile-page .general-container .general-box .profile-settings hr {
+  border: 6px solid #D9D9D9;
+}
+
+.profile-page .general-container .general-box .profile-settings .options {
+  margin-top: 25px;
+}
+
+.profile-page .general-container .general-box .profile-settings .options h2 {
   color: #898686;
   text-decoration: none;
   font-size: 30px;
 }
 
-.profilesettings li {
-  padding: auto 50px auto 150px;
+.profile-page .general-container .general-box .profile-settings .options a {
   text-decoration: none;
   color: black;
+}
+
+.profile-page .general-container .general-box .profile-settings .options a li {
   list-style: none;
-  position: relative;
-  top: 10px;
-  left: 15px;
+  margin-top: 8px;
+  margin-left: 45px;
   font-size: 25px;
 }
 
-.profilesettings a {
-  text-decoration: none;
-  padding: auto 50px auto 150px;
-}
-
-.profilesettings a .delete-account-text {
+.profile-page .general-container .general-box .profile-settings .options a .delete-account-text {
   color: red;
 }
 
-.profilesettings hr {
-  position: relative;
-  top: 20px;
+.profile-page .general-container .general-box .profile-settings .options hr {
+  margin-top: 25px;
+  border: 2px solid #D9D9D9;
 }
 /*# sourceMappingURL=style.css.map */

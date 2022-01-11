@@ -51,8 +51,6 @@
         display: flex;
         justify-content: center;
     
-    
-        
         .general-box {
             background-color: $accentColor;
             padding: 20px;
@@ -82,9 +80,17 @@
                             .product-name {
                                 text-align: center;
                                 padding-bottom: 2px;
-        
-                                span {
-                                    font-size: 12px;
+                                
+                                a {
+                                    text-decoration: none;
+    
+                                    span {
+                                        font-size: 12px;
+                                    }
+                                }
+    
+                                a:visited {
+                                    color: inherit;
                                 }
                             }
         
@@ -277,9 +283,17 @@
                                         .product-name {
                                             text-align: center;
                                             padding-bottom: 2px;
-                    
-                                            span {
-                                                font-size: 10px;
+                                            
+                                            a {
+                                                text-decoration: none;
+                
+                                                span {
+                                                    font-size: 10px;
+                                                }
+                                            }
+                
+                                            a:visited {
+                                                color: inherit;
                                             }
                                         }
                     
