@@ -110,10 +110,10 @@
   font-size: 24px;
 }
 
-.home-page .home-text-container div hr {
+.home-page .home-text-container div .line-1 {
   position: absolute;
-  border: 2px solid #EBA92A;
-  width: 60px;
+  border-top: 4px solid #EBA92A;
+  width: 64px;
 }
 
 .home-page .todays-deals-text-container {
@@ -406,8 +406,8 @@
   color: #EBA92A;
 }
 
-.home-page .general-container .general-box .category-and-all-products-container .all-products-and-page-number-container .all-products-container .all-products-text hr {
-  border: 2px solid #EBA92A;
+.home-page .general-container .general-box .category-and-all-products-container .all-products-and-page-number-container .all-products-container .all-products-text .line-2 {
+  border-top: 4px solid #EBA92A;
   width: 180px;
 }
 
@@ -509,12 +509,9 @@
   color: #737373;
 }
 
-.home-page .general-container .general-box .line {
+.home-page .general-container .general-box .line-3 {
   margin-top: 40px;
-}
-
-.home-page .general-container .general-box .line hr {
-  border: 2px solid #EBA92A;
+  border-top: 5px solid #EBA92A;
 }
 
 .home-page .general-container .general-box .payment-methods-and-about-container {
@@ -610,11 +607,11 @@
   color: #A6A6A6;
 }
 
-.search-results-page .general-container .general-box .page-path-and-sort-by hr {
+.search-results-page .general-container .general-box .page-path-and-sort-by .line-1 {
   position: absolute;
-  border: 2px solid #EBA92A;
-  width: 120px;
-  margin-left: 70px;
+  border-top: 5px solid #EBA92A;
+  width: 124px;
+  margin-left: 80px;
 }
 
 .search-results-page .general-container .general-box .page-path-and-sort-by select {
@@ -717,21 +714,6 @@
   background-color: #FFFFFF;
 }
 
-.search-results-page .general-container .general-box .category-and-all-products-container .all-products-and-page-number-container .all-products-container .all-products-text {
-  margin-bottom: 10px;
-}
-
-.search-results-page .general-container .general-box .category-and-all-products-container .all-products-and-page-number-container .all-products-container .all-products-text h1 {
-  font-size: 30px;
-  margin-left: 10px;
-  color: #EBA92A;
-}
-
-.search-results-page .general-container .general-box .category-and-all-products-container .all-products-and-page-number-container .all-products-container .all-products-text hr {
-  border: 2px solid #EBA92A;
-  width: 180px;
-}
-
 .search-results-page .general-container .general-box .category-and-all-products-container .all-products-and-page-number-container .all-products-container .products-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -830,12 +812,9 @@
   color: #737373;
 }
 
-.search-results-page .general-container .general-box .line {
+.search-results-page .general-container .general-box .line-2 {
   margin-top: 40px;
-}
-
-.search-results-page .general-container .general-box .line hr {
-  border: 2px solid #EBA92A;
+  border-top: 5px solid #EBA92A;
 }
 
 .search-results-page .general-container .general-box .payment-methods-and-about-container {
@@ -1725,10 +1704,7 @@
 
 .product-page .general-container .general-box .line {
   margin-top: 40px;
-}
-
-.product-page .general-container .general-box .line hr {
-  border: 2px solid #EBA92A;
+  border-top: 5px solid #EBA92A;
 }
 
 .product-page .general-container .general-box .payment-methods-and-about-container {

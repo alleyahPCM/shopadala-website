@@ -14,10 +14,10 @@
                 font-size: 24px;
             }
     
-            hr {
+            .line-1 {
                 position: absolute;
-                border: 2px solid $secondaryColor;
-                width: 60px;
+                border-top: 4px solid $secondaryColor;
+                width: 64px;
             }
         }
     }
@@ -250,8 +250,8 @@
                                 color: $secondaryColor;
                             }
         
-                            hr {
-                                border: 2px solid $secondaryColor;
+                            .line-2 {
+                                border-top: 4px solid $secondaryColor;
                                 width: 180px;
                             }
                         }
@@ -351,11 +351,9 @@
                 }     
             }
     
-            .line {
+            .line-3 {
                 margin-top: 40px;
-                hr {
-                    border: 2px solid $secondaryColor;
-                }
+                border-top: 5px solid $secondaryColor;
             }
     
             .payment-methods-and-about-container {
