@@ -159,6 +159,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 24px;
 }
 
 .home-page .general-container .general-box {
@@ -570,6 +571,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .search-results-page .general-container .general-box {
@@ -1422,13 +1424,13 @@
 
 .product-page .general-container .general-box .product-page-content .product-name-and-price .delivery .arrow-down-1 {
   position: absolute;
-  margin-left: 272px;
+  margin-left: 280px;
   margin-top: 4px;
 }
 
 .product-page .general-container .general-box .product-page-content .product-name-and-price .delivery .arrow-down-2 {
   position: absolute;
-  margin-left: 222px;
+  margin-left: 230px;
   margin-top: 40px;
 }
 
