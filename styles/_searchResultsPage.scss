@@ -1,12 +1,12 @@
 .search-results-page {
+    font-family: 'Red Hat Display', sans-serif;
 
     .general-container {
         width: 100%;
         display: flex;
         justify-content: center;
         margin-top: 24px;
-
-        
+ 
         .general-box {
             background-color: $accentColor;
             padding: 20px;
@@ -22,7 +22,6 @@
                     font-size: 20px;
                 }
                 
-
                 .search-results-text {
                     color: $secondaryColor;
                     margin-right: 30px;
@@ -160,7 +159,7 @@
                                                 text-decoration: none;
                 
                                                 span {
-                                                    font-size: 10px;
+                                                    font-size: 9px;
                                                 }
                                             }
                 

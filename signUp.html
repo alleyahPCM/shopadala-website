@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
-        <div class="log-in-page">
+        <div class="sign-up-page">
             <div class="background">
                 <div class="header">
                     <img src="images/Shopadala logo.png" alt="shopadala-logo">    
@@ -23,28 +23,43 @@
                     <span>© 2021 Shopadala. All Rights Reserved.</span>
                 </div>
             </div>
-        
             <div class="center">
-                <h1> LOG IN </h1>
+                <h1> SIGN UP </h1>
                 <form method="post">
                     <div class="txt_input">
                         <input type="text" required>
                         <span></span>
-                        <label> Username / Email </label>
+                        <label> Username </label>
+                    </div>
+                    <div class="txt_input">
+                        <input type="text" required>
+                        <span></span>
+                        <label> Full name </label>
+                    </div>
+                    <div class="txt_input">
+                        <input type="text" required>
+                        <span></span>
+                        <label> Email </label>
                     </div>
                     <div class="txt_input">
                         <input type="password" required>
                         <span></span>
                         <label> Password </label>
                     </div>
-                    <div class="pass"> Forgot Password? </div>
-                    <input type="submit" value="LOG IN">
+                    <div class="txt_input">
+                        <input type="password" required>
+                        <span></span>
+                        <label> Confirm Password </label>
+                    </div>
+                    <span class="agreement-text">by submitting the Sign up details, you agree to our</span>
+                    <a href="#" class="terms-and-conditions">Terms and Conditions</a>
+                    <a href="#" class="privacy"> <span>Privacy</span> </a>
+                    <input type="submit" value="SIGN UP" class="sign-up-button">
                     <div class="signup_link">
-                        Not yet a member? <a href="signUp.html"> Create an account </a>
+                        Already have an account? <a href="logIn.html"> Log In</a>
                     </div>  
                 </form>
             </div>
         </div>
     </body>
 </html>
-   

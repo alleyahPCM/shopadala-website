@@ -8,8 +8,13 @@ $accentColor: #F1F1F1;
     box-sizing: inherit;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+
 @import "./header";
 @import "./home";
-@import "./login";
 @import "./searchResultsPage";
 @import "./profile";
+@import "./product";
+@import "./logIn";
+@import "./signUp"

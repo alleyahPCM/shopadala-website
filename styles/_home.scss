@@ -1,4 +1,6 @@
 .home-page {
+    font-family: 'Red Hat Display', sans-serif;
+
     .home-text-container{
         width: 100%;
         display: flex;
@@ -57,7 +59,7 @@
             width: 1150px;
             display: flex;
             flex-direction: column;
-            
+
             .todays-deals-container {
                 display: flex;
     
@@ -65,7 +67,7 @@
                     background-color: $secondaryColor;
                     padding: 8px;
                     margin-right: 7px;
-        
+
                     .product {
                         background-color: $primaryColor;
                         padding-bottom: 8px;
@@ -85,7 +87,7 @@
                                     text-decoration: none;
     
                                     span {
-                                        font-size: 12px;
+                                        font-size: 10px;
                                     }
                                 }
     
@@ -135,9 +137,7 @@
                                     color: orange;
                                 }
                             }
-        
                         }
-        
                     }
                 }
             }
@@ -156,8 +156,6 @@
                     }
                 }
     
-    
-    
                 .shopadala-sale-container {
                     background-color: $secondaryColor;
                     display: flex;
@@ -171,7 +169,6 @@
                         margin-right: 2px;
                         margin-top: 20px;
                         
-                        
                         .limited-time-offer-sticker {
                             position: absolute;
                             width: 65px;
@@ -183,7 +180,6 @@
                             width: 145px;
                             text-align: center;
                             margin-top: 25px;
-    
     
                             img {
                                 width: 145px;
@@ -232,7 +228,6 @@
                             font-size: 20px;
                         }
                     }
-    
                 }
     
                 .all-products-and-page-number-container {
@@ -268,7 +263,7 @@
                                 background-color: $secondaryColor;
                                 padding: 6px;
                                 margin-right: 7px;
-                    
+
                                 .product {
                                     background-color: $primaryColor;
                                     padding-bottom: 8px;
@@ -288,7 +283,7 @@
                                                 text-decoration: none;
                 
                                                 span {
-                                                    font-size: 10px;
+                                                    font-size: 9px;
                                                 }
                                             }
                 
@@ -296,7 +291,6 @@
                                                 color: inherit;
                                             }
                                         }
-                    
                     
                                         .price-and-sold-container {
                                             display: flex;
@@ -318,7 +312,6 @@
                                             }
                                         }
                                         
-                                
                                         .rating-container{
                                             display: flex;
                                             
@@ -338,31 +331,23 @@
                                                 color: orange;
                                             }
                                         }
-                    
                                     }
-                    
                                 }
                             }
                         }
-        
                     }
     
                     .page-number-container {
                         padding: 20px;
-                        
                         align-self: center;
             
-                            span {
-                                font-size: 30px;
-                                margin-right: 10px;
-                                color: #737373;
-                            }
-                        
+                        span {
+                            font-size: 30px;
+                            margin-right: 10px;
+                            color: #737373;
+                        }   
                     }
-    
-                }
-               
-    
+                }     
             }
     
             .line {
@@ -402,10 +387,7 @@
                         align-self: center;
                     }
                 }
-            }
-           
-    
+            } 
         }
-    
     }
 }

@@ -1,0 +1,626 @@
+.product-page {
+    font-family: 'Red Hat Display', sans-serif;
+
+    .general-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    
+        .general-box {
+            background-color: $accentColor;
+            padding: 20px;
+            width: 1150px;
+            display: flex;
+            flex-direction: column;
+
+            .page-path {
+                span {
+                    font-size: 20px;
+                }
+
+                .product-text {
+                    color: $secondaryColor;
+                }
+            }
+
+            .product-page-content {
+                display: flex;
+                flex-direction: row;
+
+                .product-images {
+                    width: 250px;
+                    margin: 16px 50px;
+                    img {
+                        width: 250px;
+                    }
+    
+                    .image-options {
+                        margin-top: 14px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+    
+                        img {
+                            width: 54px;
+                            height: 54px;
+                            filter: brightness(50%);
+                        }
+    
+                        .product-image-1 {
+                            padding: 3px;
+                            border: 2px solid $secondaryColor;
+                            filter: brightness(100%);
+                        }
+
+                        .next-arrow {
+                            position: absolute;
+                            height: 44px;
+                            width: 30px;
+                            margin-left: 220px;
+                            filter: brightness(100%);
+                        }
+                    }
+
+                    .shop {
+                        display: flex;
+                        flex-direction: row;
+                        margin-top: 14px;
+                        padding: 8px;
+                        background-color: #D9D9D9;
+
+                        img {
+                            width: 55px;
+                            margin-right: 8px;
+                            margin-top: 4px;
+                        }
+
+                        .shop-name-and-rating {
+                            margin-right: 8px;
+                            margin-top: 10px;
+
+                            span {
+                                font-size: 14px;
+                            }
+                            .star-rating {
+                                display: flex;
+                                
+                                span {
+                                    font-size: 8px;
+                                }
+        
+                                .checked {
+                                    color: orange;
+                                }
+                            }
+                        }
+
+                        .chat-and-visit-buttons {
+                            display: flex;
+                            flex-direction: column;
+
+                            button {
+                                width: 66px;
+                                padding: 4px;
+                                border: 3px solid $secondaryColor;
+
+                                a {
+                                    text-decoration: none;
+
+                                    span {
+                                        font-size: 12px;
+                                        
+                                    } 
+                                }
+
+                            }
+
+                            .chat-button {
+                                background-color: $primaryColor;
+                                margin-bottom: 4px;
+
+                                span {
+                                    color: $secondaryColor;
+                                }
+                            }
+
+                            .visit-button {
+                                background-color: $secondaryColor;
+
+                                span {
+                                    color: $primaryColor;
+                                }
+                            }
+
+                        }
+                        .online-status {
+                            width: 24px;
+                            position: absolute;
+                            margin-left: 36px;
+                            margin-top: 34px;
+                        }
+                    }
+
+                    .recommended-products {
+                        margin-top: 24px;
+
+                        .header {
+                            display: flex;
+                            background-color: $secondaryColor;
+                            justify-content: center;
+                            align-items: center;
+                            height: 50px;
+
+                            span {
+                                font-size: 18px;
+                                color: $primaryColor;
+                            }
+                        }
+
+                        .recommended-products-container {
+                            display: flex;
+                            flex-direction: row;
+                            background-color: $primaryColor;
+                            justify-content: center;
+                            padding: 4px 0;
+
+                            .product-container {
+                                background-color: $secondaryColor;
+                                padding: 4px;
+                                margin: 4px 2px;
+                    
+                                .product {
+                                    background-color: $primaryColor;
+                                    padding-bottom: 8px;
+                                     
+                                    img {
+                                        width: 108px;
+                                    }
+                    
+                                    .product-description {
+                                        padding: 0 8px;
+                                        
+                                        .product-name {
+                                            text-align: center;
+                                            padding-bottom: 2px;
+                                            
+                                            a {
+                                                text-decoration: none;
+                
+                                                span {
+                                                    font-size: 8px;
+                                                }
+                                            }
+                
+                                            a:visited {
+                                                color: inherit;
+                                            }
+                                        }
+                    
+                    
+                                        .price-and-sold-container {
+                                            display: flex;
+                                            justify-content: space-between;
+                    
+                                            .price {
+                                                span {
+                                                    font-size: 12px;
+                                                    color: $secondaryColor;
+                                                }
+                                            }
+                    
+                                            .number-sold {
+                                                span {
+                                                    vertical-align: middle;
+                                                    font-size: 8px;
+                                                    color: #A6A6A6;
+                                                }
+                                            }
+                                        }
+                                        
+                                
+                                        .rating-container{
+                                            display: flex;
+                                            
+                                            span {
+                                                font-size: 6px;
+                                            }
+                                            
+                                            .number-of-ratings {
+                                                margin-left: 3px;
+                    
+                                                span {
+                                                    color: $secondaryColor;
+                                                }
+                                            }
+                    
+                                            .checked {
+                                                color: orange;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }    
+                    }
+                }
+
+                .product-name-and-price {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 16px;
+
+                    .product-name {
+                        font-size: 34px;
+                        font-weight: bold;
+                    }
+
+                    .brand-name {
+                        font-size: 13px;
+                        margin-top: 5px;
+                    }
+
+                    .rating-and-sold-container {
+                        display: flex;
+                        flex-direction: row;
+                        margin-top: 4px;
+
+                        span {
+                            font-size: 16px;
+                        }
+                        
+                        .number-of-ratings {
+                            margin-left: 10px;
+                        }
+
+                        .checked {
+                            color: orange;
+                        }
+
+                        .vl {
+                            border-left: 3px solid $secondaryColor;
+                            height: 16px;
+                            margin: 0 10px;
+                        }
+                    }
+
+                    .price {
+                        font-size: 34px;
+                        color: #EA4335;
+                        margin-top: 12px;
+                    }
+
+                    .delivery {
+                        display: flex;
+                        flex-direction: row;
+                        margin-top: 12px;
+
+                        .delivery-text {
+                            font-size: 18px;
+                        }
+
+                        .shipping {
+                            margin-left: 50px;
+
+                            span {
+                                font-size: 13px;
+                            }
+                            .shipping-to {
+                                margin-bottom: 10px;
+
+                                .shipping-to-text {
+                                    margin-right: 6px;
+                                }
+                            }
+
+                            select {
+                                border: 3px solid $secondaryColor;
+                                background-color: $accentColor;
+                                appearance: none;
+                                padding: 2px;
+                            }
+
+                            .shipping-to-options {
+                                width: 98px;
+                            }
+
+                            .shipping-fee-options {
+                                width: 48px;
+                            }
+
+                        }
+
+                        .arrow-down-1 {
+                            position: absolute;
+                            margin-left: 272px;
+                            margin-top: 4px;
+                        }
+
+                        .arrow-down-2 {
+                            position: absolute;
+                            margin-left: 222px;
+                            margin-top: 40px;
+                        }
+
+                       
+                    }
+
+                    .quantity {
+                        display: flex;
+                        flex-direction: row;
+                        margin-top: 12px;
+
+                        span {
+                            font-size: 18px;
+                        }
+
+                        .number {
+                            margin-left: 50px;
+                            display: flex;
+                            flex-direction: row;
+
+                            .minus, .plus{
+                                width:28px;
+                                height:19px;
+                                background:#B4B0B0;
+                                border:1px solid #ddd;
+                                display: inline-block;
+                                vertical-align: middle;
+                                text-align: center;
+                                padding-top: 6px;
+                                font-size: 14px;
+                            }
+
+                            input{
+                                height:25px;
+                                width: 34px;
+                                text-align: right;
+                                font-size: 16px;
+                                border:1px solid #ddd;
+                                background-color: #D9D9D9;
+                                display: inline-block;
+                                vertical-align: middle;
+                            }
+                        }
+                      
+                       
+                    }
+
+                    .add-to-cart-and-buy-now-buttons {
+                        margin-top: 30px;
+
+                        span {
+                            font-size: 18px;
+                            padding: 2px;
+                        }
+                        
+                        button {
+                            width: 140px;
+                            height: 46px;
+                            margin-right: 12px;
+                        }
+
+                        a {
+                            text-decoration: none;
+                            color: $primaryColor;
+                        }
+
+                        .add-to-cart-button {
+                            background-color: $secondaryColor;
+                            border: none;
+                        }
+
+                        .buy-now-button {
+                            background-color: #EA4335;
+                            border: none;
+                        }
+                    }
+
+                    hr {
+                        width: 794px;
+                        margin-top: 90px;
+                        border: 2px dashed #A6A6A6;
+                    }
+
+                    .product-details {
+                        margin-top: 18px;
+                        
+                        .header {
+                            font-size: 34px;
+                            font-weight: bold;
+                            color: #737373;
+                        }
+
+                        .product-details-content {
+                            display: flex;
+                            flex-direction: column;
+                            margin-top: 4px;
+
+                            span {
+                                font-size: 18px;
+                            }
+                            .orange-text {
+                                color: $secondaryColor;
+                                font-weight: bold;
+                                margin-top: 14px;
+                            }
+
+                            .black-text {
+                                font-weight: none;
+                                margin-top: 5px;
+                                margin-left: 14px;
+                            }
+                        }
+                    }
+
+                    .hr-2 {
+                        margin-top: 60px;
+                    }
+
+                    .ratings-and-reviews {
+                        margin-top: 18px;
+                        display: flex;
+                        flex-direction: column;
+
+                        span {
+                            font-size: 34px;
+                            font-weight: bold;
+                            color: #737373;
+                        }
+
+                        textarea {
+                            margin-top: 18px;
+                            border: none;
+                            font-size: 18px;
+                            padding: 4px;
+                            height: 100px;
+                            
+                        }
+                    }
+
+                    .review {
+                        .rating {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            margin-top: 30px;
+                            background-color: #898686;
+
+                            .rating-container {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                margin-left: 8px;
+                                padding: 4px;
+
+                                .star-rating {
+                                    span {
+                                        font-size: 16px;
+                                    }
+                                }
+                                
+                                .rating-text {
+                                    margin-left: 10px;
+        
+                                    span {
+                                        color: #FFCE6D;
+                                        font-size: 18px;
+                                    }
+                                }
+        
+                                .checked {
+                                    color: #FFCE6D;
+                                }
+                            }
+
+                            .three-dots {
+                                color: #F2F2F2;
+                                padding: 4px;
+                                margin-right: 8px;
+                            }
+                        }
+
+                        .comment {
+                            background-color: #D9D9D9;
+                            .user-details {
+                                display: flex;
+                                flex-direction: row;
+                                padding: 4px;
+
+                                img {
+                                    width: 60px;
+                                    padding: 4px;
+                                    margin-right: 12px;
+                                    margin-left: 4px;
+                                }
+
+                                .username-and-date-time {
+                                    margin-top: 20px;
+
+                                    span {
+                                        margin-right: 10px;
+                                    }
+
+                                    .username {
+                                        color: #43484D;
+                                    }
+
+                                    .date, .time {
+                                        color: #898686;
+                                    }
+                                }
+
+                            }
+
+                            .comment-text {
+                                margin-left: 88px;
+                                
+                                span {
+                                    color: #43484D;
+                                }
+                            }
+
+                            span {
+                               font-size: 18px;
+                            }
+                            
+                            .like-and-dislike {
+                                display: flex;
+                                justify-content: flex-end;
+                                padding: 8px;
+                                margin-right: 2px;
+
+                                i {
+                                    font-size: 20px;
+                                    margin-left: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .line {
+                margin-top: 40px;
+                hr {
+                    border: 2px solid $secondaryColor;
+                }
+            }
+    
+            .payment-methods-and-about-container {
+                display: flex;
+                background-color: $primaryColor;
+                margin-top: 30px;
+    
+                .payment-methods {
+                    padding: 10px;
+    
+                    h1 {
+                        font-size: 30px;
+                    }
+                }
+    
+                .about-container {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    margin-left: 50px;
+                    padding: 10px;
+                    width: 700px;
+    
+                    h2 {
+                        font-size: 30px;
+                        padding-bottom: 10px;
+                    }
+    
+                    .copyright {
+                        align-self: center;
+                    }
+                }
+            }
+        }
+
+    }
+}
