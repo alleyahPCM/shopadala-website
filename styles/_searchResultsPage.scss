@@ -1,3 +1,4 @@
+// These are the stylings for the Search Results page.
 .search-results-page {
     font-family: 'Red Hat Display', sans-serif;
 
@@ -75,7 +76,6 @@
                             font-size: 20px;
                         }
                     }
-
                 }
 
                 .all-products-and-page-number-container {
@@ -104,9 +104,7 @@
                             .page-number {
                                 margin-right: 10px;
                             }
-                        }
-                        
-                        
+                        }  
                     }
 
                     .all-products-container {
@@ -166,7 +164,6 @@
                                             a:visited {
                                                 color: inherit;
                                             }
-
                                         }
                     
                     
@@ -210,13 +207,10 @@
                                                 color: orange;
                                             }
                                         }
-                    
                                     }
-                    
                                 }
                             }
                         }
-        
                     }
 
                     .page-number-container-bottom {
@@ -271,9 +265,6 @@
                     }
                 }
             }
-        
-
         }
-
     }
 }

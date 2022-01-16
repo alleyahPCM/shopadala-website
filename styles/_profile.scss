@@ -1,3 +1,4 @@
+// These are the stylings for the Profile page or index.
 .profile-page {
     font-family: 'Red Hat Display', sans-serif;
 
@@ -87,11 +88,7 @@
                         height: 130px;
                         margin: 0 10px;
                     }
-        
-    
                 }
-    
-               
             }
     
             .profile-settings {
@@ -103,6 +100,7 @@
     
                 .options {
                     margin-top: 25px;
+
                     h2 {
                         color: #898686;
                         text-decoration: none;
@@ -130,7 +128,6 @@
                         border: 2px solid #D9D9D9;
                     }
                 }
-    
             }
         }
     }

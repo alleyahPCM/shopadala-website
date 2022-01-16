@@ -1,3 +1,4 @@
+// These are the stylings for the Product page.
 .product-page {
     font-family: 'Red Hat Display', sans-serif;
 
@@ -306,6 +307,7 @@
                             span {
                                 font-size: 13px;
                             }
+
                             .shipping-to {
                                 margin-bottom: 10px;
 
@@ -382,9 +384,7 @@
                                 display: inline-block;
                                 vertical-align: middle;
                             }
-                        }
-                      
-                       
+                        }   
                     }
 
                     .add-to-cart-and-buy-now-buttons {
@@ -550,7 +550,6 @@
                                         color: #898686;
                                     }
                                 }
-
                             }
 
                             .comment-text {
@@ -579,7 +578,6 @@
                         }
                     }
                 }
-
             }
 
             .line {
@@ -621,6 +619,5 @@
                 }
             }
         }
-
     }
 }
